@@ -25,8 +25,6 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=sing1ee&show_icons=true&theme=radical" alt="GitHub Stats" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sing1ee&theme=dark" alt="GitHub Streak" />
-
 ## Language Usage 📈
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sing1ee&layout=compact&theme=radical" alt="Top Languages" />
