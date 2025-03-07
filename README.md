@@ -13,10 +13,10 @@
     </td>
     <td>
       <h3 align="center">SVG Viewer</h3>
-      <div align="center">
-        <img src="assets/svg-viewer.svg" width="240" height="160" alt="SVG Viewer" />
-        <p align="center"><a href="https://svgviewer.app">SVG Viewer</a></p>
-      </div>
+      <a href="https://github.com/sing1ee/svgviewer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=svgviewer&theme=dark" />
+      </a>
+      <p align="center"><a href="https://svgviewer.app">SVG Viewer & Converter</a></p>
     </td>
   </tr>
 </table>
