@@ -18,6 +18,13 @@
       </a>
       <p align="center"><a href="https://svgviewer.app">SVG Viewer & Converter</a></p>
     </td>
+    <td>
+      <h3 align="center">Pose Detector</h3>
+      <a href="https://github.com/sing1ee/my-pose">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=my-pose&theme=dark" />
+      </a>
+      <p align="center"><a href="https://posedetector.com/">Pose Detector</a></p>
+    </td>
   </tr>
 </table>
 
