@@ -1,4 +1,4 @@
-# Hello, I'm 北邻 👋
+# Hello, I'm MILO 👋
 
 ## My Projects 💻
 
@@ -47,5 +47,5 @@
 
 ---
 
-⭐️ From [北邻](https://github.com/sing1ee)
+⭐️ From [MILO](https://github.com/sing1ee)
 
