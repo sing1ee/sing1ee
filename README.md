@@ -25,6 +25,13 @@
       </a>
       <p align="center"><a href="https://posedetector.com/">Pose Detector</a></p>
     </td>
+    <td>
+      <h3 align="center">A2A Directory</h3>
+      <a href="https://github.com/sing1ee/a2a-directory">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=a2a-directory&theme=dark" />
+      </a>
+      <p align="center"><a href="https://a2aprotocol.ai">A2A Protocol</a></p>
+    </td>
   </tr>
 </table>
 
