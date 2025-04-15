@@ -18,6 +18,13 @@
       </a>
       <p align="center"><a href="https://svgviewer.app">SVG Viewer & Converter</a></p>
     </td>
+    <td>
+      <h3 align="center">URL Notes</h3>
+      <a href="https://github.com/sing1ee/url-notes">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=url-notes&theme=dark" />
+      </a>
+      <p align="center"><a href="https://svgviewer.app">URL Notes</a></p>
+    </td>
   </tr>
   <tr>
     <td>
@@ -33,6 +40,13 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=a2a-directory&theme=dark" />
       </a>
       <p align="center"><a href="https://a2aprotocol.ai">A2A Protocol</a></p>
+    </td>
+    <td>
+      <h3 align="center">Blog for Github issues</h3>
+      <a href="https://github.com/sing1ee/perplexityai">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=perplexityai&theme=dark" />
+      </a>
+      <p align="center"><a href="https://a2aprotocol.ai">PerplexityAI</a></p>
     </td>
   </tr>
 </table>
