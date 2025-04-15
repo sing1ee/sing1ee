@@ -23,7 +23,7 @@
       <a href="https://github.com/sing1ee/url-notes">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=url-notes&theme=dark" />
       </a>
-      <p align="center"><a href="https://svgviewer.app">URL Notes</a></p>
+      <p align="center"><a href="https://perplexityai.xyz">URL Notes</a></p>
     </td>
   </tr>
   <tr>
