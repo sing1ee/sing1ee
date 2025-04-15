@@ -46,7 +46,7 @@
       <a href="https://github.com/sing1ee/perplexityai">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=sing1ee&repo=perplexityai&theme=dark" />
       </a>
-      <p align="center"><a href="https://a2aprotocol.ai">PerplexityAI</a></p>
+      <p align="center"><a href="https://perplexityai.xyz/">PerplexityAI</a></p>
     </td>
   </tr>
 </table>
