@@ -1,5 +1,9 @@
 # Hello, I'm MILO 👋
 
+## Side Projects 🚀
+
+Check out all my [Side Projects](SIDE_PROJECTS.md), including various interesting projects and tools.
+
 ## My Projects 💻
 
 <table>
