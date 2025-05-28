@@ -28,4 +28,4 @@ Here are some interesting projects I've been involved in developing.
 
 ## Others
 
-- <img src="https://ace-step.club/favicon.svg" width="16" height="16" alt="Ace Step icon"> [Ace Step](https://ace-step.club/) - Ace Step 
+- <img src="https://ace-step.club/favicon.ico" width="16" height="16" alt="Ace Step icon"> [Ace Step](https://ace-step.club/) - Ace Step 
