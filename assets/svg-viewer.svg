@@ -1,66 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200px" viewBox="0 0 1000 200">
+    <rect width="100%" height="100%" fill="#000000"/>
+    
+    <!-- Matrix style falling characters -->
     <defs>
         <style type="text/css">
-            @font-face {
-                font-family: "Matrix";
-                src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/133626/matrix-code-nfi.otf") format("opentype");
+            .matrix-text {
+                font-family: 'Courier New', monospace;
+                font-size: 14px;
+                fill: #00FF00;
+                opacity: 0.8;
             }
         </style>
-        <g id="matrix-text" style="font-family: 'Matrix'; font-size: 20px; fill: #0F0;">
-            <text y="20">日</text>
-            <text y="40">ﾊ</text>
-            <text y="60">ﾐ</text>
-            <text y="80">ﾋ</text>
-            <text y="100">ｰ</text>
-            <text y="120">ｳ</text>
-            <text y="140">ｼ</text>
-            <text y="160">ﾅ</text>
-            <text y="180">ﾓ</text>
-            <text y="200">ﾆ</text>
-            <text y="220">ｻ</text>
-            <text y="240">ﾜ</text>
-            <text y="260">ﾂ</text>
-            <text y="280">ｵ</text>
-            <text y="300">ﾘ</text>
-            <text y="320">ｱ</text>
-            <text y="340">ﾎ</text>
-            <text y="360">ﾃ</text>
-            <text y="380">ﾏ</text>
-            <text y="400">ｹ</text>
-            <text y="420">ﾒ</text>
-            <text y="440">ｴ</text>
-            <text y="460">ｶ</text>
-            <text y="480">ｷ</text>
-            <text y="500">ﾑ</text>
-            <text y="520">ﾕ</text>
-            <text y="540">ﾗ</text>
-            <text y="560">ｾ</text>
-            <text y="580">ﾈ</text>
-            <text y="600">ｽ</text>
-            <text y="620">ﾀ</text>
-            <text y="640">ﾇ</text>
-            <text y="660">ﾍ</text>
-        </g>
     </defs>
-    <rect width="100%" height="100%" fill="black"/>
-    <script>
-        const svg = document.querySelector('svg');
-        const columns = 50;
-        for (let i = 0; i < columns; i++) {
-            const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
-            use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#matrix-text");
-            use.setAttribute("x", i * 20);
-            use.setAttribute("y", Math.random() * -2000);
-            
-            const anim = document.createElementNS("http://www.w3.org/2000/svg", "animate");
-            anim.setAttribute("attributeName", "y");
-            anim.setAttribute("from", Math.random() * -1000);
-            anim.setAttribute("to", "200");
-            anim.setAttribute("dur", Math.random() * 3 + 2 + "s");
-            anim.setAttribute("repeatCount", "indefinite");
-            
-            use.appendChild(anim);
-            svg.appendChild(use);
-        }
-    </script>
+    
+    <!-- Column 1 -->
+    <text x="20" y="20" class="matrix-text">デ</text>
+    <text x="20" y="40" class="matrix-text">ジ</text>
+    <text x="20" y="60" class="matrix-text">タ</text>
+    <text x="20" y="80" class="matrix-text">ル</text>
+    <text x="20" y="100" class="matrix-text">ワ</text>
+    <text x="20" y="120" class="matrix-text">ー</text>
+    <text x="20" y="140" class="matrix-text">ル</text>
+    <text x="20" y="160" class="matrix-text">ド</text>
+    <text x="20" y="180" class="matrix-text">へ</text>
+    <text x="20" y="200" class="matrix-text">よ</text>
+    
+    <!-- Column 2 -->
+    <text x="80" y="30" class="matrix-text">う</text>
+    <text x="80" y="50" class="matrix-text">こ</text>
+    <text x="80" y="70" class="matrix-text">そ</text>
+    <text x="80" y="90" class="matrix-text">ネ</text>
+    <text x="80" y="110" class="matrix-text">オ</text>
+    <text x="80" y="130" class="matrix-text">♯</text>
+    <text x="80" y="150" class="matrix-text">※</text>
+    <text x="80" y="170" class="matrix-text">◆</text>
+    <text x="80" y="190" class="matrix-text">▲</text>
+    
+    <!-- Column 3 -->
+    <text x="140" y="15" class="matrix-text">1</text>
+    <text x="140" y="35" class="matrix-text">0</text>
+    <text x="140" y="55" class="matrix-text">1</text>
+    <text x="140" y="75" class="matrix-text">1</text>
+    <text x="140" y="95" class="matrix-text">0</text>
+    <text x="140" y="115" class="matrix-text">0</text>
+    <text x="140" y="135" class="matrix-text">1</text>
+    <text x="140" y="155" class="matrix-text">0</text>
+    <text x="140" y="175" class="matrix-text">1</text>
+    <text x="140" y="195" class="matrix-text">1</text>
+    
+    <!-- Column 4 -->
+    <text x="200" y="25" class="matrix-text">ハ</text>
+    <text x="200" y="45" class="matrix-text">ミ</text>
+    <text x="200" y="65" class="matrix-text">ヒ</text>
+    <text x="200" y="85" class="matrix-text">ウ</text>
+    <text x="200" y="105" class="matrix-text">シ</text>
+    <text x="200" y="125" class="matrix-text">ナ</text>
+    <text x="200" y="145" class="matrix-text">モ</text>
+    <text x="200" y="165" class="matrix-text">ニ</text>
+    <text x="200" y="185" class="matrix-text">サ</text>
+    
+    <!-- Column 5 -->
+    <text x="260" y="10" class="matrix-text">ワ</text>
+    <text x="260" y="30" class="matrix-text">ツ</text>
+    <text x="260" y="50" class="matrix-text">オ</text>
+    <text x="260" y="70" class="matrix-text">リ</text>
+    <text x="260" y="90" class="matrix-text">ア</text>
+    <text x="260" y="110" class="matrix-text">ホ</text>
+    <text x="260" y="130" class="matrix-text">テ</text>
+    <text x="260" y="150" class="matrix-text">マ</text>
+    <text x="260" y="170" class="matrix-text">ケ</text>
+    <text x="260" y="190" class="matrix-text">メ</text>
+    
+    <!-- Center Title -->
+    <text x="500" y="80" style="font-family: 'Courier New', monospace; font-size: 24px; fill: #00FF41; text-anchor: middle; font-weight: bold;">WELCOME TO THE MATRIX</text>
+    <text x="500" y="100" style="font-family: 'Courier New', monospace; font-size: 16px; fill: #00FF41; text-anchor: middle;">[ SING1EE.EXE ]</text>
+    <text x="500" y="120" style="font-family: 'Courier New', monospace; font-size: 14px; fill: #00FF41; text-anchor: middle;">REALITY IS CODE</text>
+    
+    <!-- More columns for width -->
+    <text x="620" y="20" class="matrix-text">エ</text>
+    <text x="620" y="40" class="matrix-text">カ</text>
+    <text x="620" y="60" class="matrix-text">キ</text>
+    <text x="620" y="80" class="matrix-text">ム</text>
+    <text x="620" y="100" class="matrix-text">ユ</text>
+    <text x="620" y="120" class="matrix-text">ラ</text>
+    <text x="620" y="140" class="matrix-text">セ</text>
+    <text x="620" y="160" class="matrix-text">ネ</text>
+    <text x="620" y="180" class="matrix-text">ス</text>
+    <text x="620" y="200" class="matrix-text">タ</text>
+    
+    <text x="680" y="35" class="matrix-text">0</text>
+    <text x="680" y="55" class="matrix-text">1</text>
+    <text x="680" y="75" class="matrix-text">0</text>
+    <text x="680" y="95" class="matrix-text">0</text>
+    <text x="680" y="115" class="matrix-text">1</text>
+    <text x="680" y="135" class="matrix-text">1</text>
+    <text x="680" y="155" class="matrix-text">0</text>
+    <text x="680" y="175" class="matrix-text">1</text>
+    <text x="680" y="195" class="matrix-text">0</text>
+    
+    <text x="740" y="15" class="matrix-text">ヌ</text>
+    <text x="740" y="35" class="matrix-text">ヘ</text>
+    <text x="740" y="55" class="matrix-text">ホ</text>
+    <text x="740" y="75" class="matrix-text">マ</text>
+    <text x="740" y="95" class="matrix-text">ミ</text>
+    <text x="740" y="115" class="matrix-text">ム</text>
+    <text x="740" y="135" class="matrix-text">メ</text>
+    <text x="740" y="155" class="matrix-text">モ</text>
+    <text x="740" y="175" class="matrix-text">ヤ</text>
+    <text x="740" y="195" class="matrix-text">ユ</text>
+    
+    <text x="800" y="25" class="matrix-text">ヨ</text>
+    <text x="800" y="45" class="matrix-text">ラ</text>
+    <text x="800" y="65" class="matrix-text">リ</text>
+    <text x="800" y="85" class="matrix-text">ル</text>
+    <text x="800" y="105" class="matrix-text">レ</text>
+    <text x="800" y="125" class="matrix-text">ロ</text>
+    <text x="800" y="145" class="matrix-text">ワ</text>
+    <text x="800" y="165" class="matrix-text">ヲ</text>
+    <text x="800" y="185" class="matrix-text">ン</text>
+    
+    <text x="860" y="10" class="matrix-text">1</text>
+    <text x="860" y="30" class="matrix-text">0</text>
+    <text x="860" y="50" class="matrix-text">1</text>
+    <text x="860" y="70" class="matrix-text">1</text>
+    <text x="860" y="90" class="matrix-text">0</text>
+    <text x="860" y="110" class="matrix-text">1</text>
+    <text x="860" y="130" class="matrix-text">0</text>
+    <text x="860" y="150" class="matrix-text">0</text>
+    <text x="860" y="170" class="matrix-text">1</text>
+    <text x="860" y="190" class="matrix-text">1</text>
+    
+    <text x="920" y="20" class="matrix-text">ガ</text>
+    <text x="920" y="40" class="matrix-text">ギ</text>
+    <text x="920" y="60" class="matrix-text">グ</text>
+    <text x="920" y="80" class="matrix-text">ゲ</text>
+    <text x="920" y="100" class="matrix-text">ゴ</text>
+    <text x="920" y="120" class="matrix-text">ザ</text>
+    <text x="920" y="140" class="matrix-text">ジ</text>
+    <text x="920" y="160" class="matrix-text">ズ</text>
+    <text x="920" y="180" class="matrix-text">ゼ</text>
+    <text x="920" y="200" class="matrix-text">ゾ</text>
 </svg>

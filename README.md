@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="./assets/svg-viewer.svg" width="100%"/>
-</div>
 
 <h1 align="center">
   <pre>Wake up, Neo...</pre>
@@ -18,7 +15,6 @@
   <summary align="center"><b>>./access-stats.sh</b></summary>
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=sing1ee&show_icons=true&theme=dark&border_color=00FF00&title_color=00FF00&text_color=00FF00&icon_color=00FF00" alt="GitHub Stats" />
-    <img src="https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards/main/graph.png?username=sing1ee&theme=matrix" alt="GitHub Profile Summary" />
   </p>
 </details>
 
