@@ -14,7 +14,7 @@
 <details>
   <summary align="center"><b>>./access-stats.sh</b></summary>
   <p align="center">
-    <img src="./profile-3d-contrib/profile-gitblock.svg" alt="GitHub 3D Contribution Graph" />
+    <img src="https://github-readme-stats.vercel.app/api?username=sing1ee&show_icons=true&theme=dark&border_color=00FF00&title_color=00FF00&text_color=00FF00&icon_color=00FF00" alt="GitHub Stats" />
   </p>
 </details>
 
