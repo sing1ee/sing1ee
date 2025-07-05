@@ -1,5 +1,66 @@
-<svg width="240" height="160" xmlns="http://www.w3.org/2000/svg">
-  <rect width="240" height="160" fill="#0D1117" rx="6" ry="6"/>
-  <text x="120" y="80" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">SVG Viewer</text>
-  <line x1="70" y1="100" x2="170" y2="100" stroke="#58A6FF" stroke-width="2"/>
-</svg> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px">
+    <defs>
+        <style type="text/css">
+            @font-face {
+                font-family: "Matrix";
+                src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/133626/matrix-code-nfi.otf") format("opentype");
+            }
+        </style>
+        <g id="matrix-text" style="font-family: 'Matrix'; font-size: 20px; fill: #0F0;">
+            <text y="20">日</text>
+            <text y="40">ﾊ</text>
+            <text y="60">ﾐ</text>
+            <text y="80">ﾋ</text>
+            <text y="100">ｰ</text>
+            <text y="120">ｳ</text>
+            <text y="140">ｼ</text>
+            <text y="160">ﾅ</text>
+            <text y="180">ﾓ</text>
+            <text y="200">ﾆ</text>
+            <text y="220">ｻ</text>
+            <text y="240">ﾜ</text>
+            <text y="260">ﾂ</text>
+            <text y="280">ｵ</text>
+            <text y="300">ﾘ</text>
+            <text y="320">ｱ</text>
+            <text y="340">ﾎ</text>
+            <text y="360">ﾃ</text>
+            <text y="380">ﾏ</text>
+            <text y="400">ｹ</text>
+            <text y="420">ﾒ</text>
+            <text y="440">ｴ</text>
+            <text y="460">ｶ</text>
+            <text y="480">ｷ</text>
+            <text y="500">ﾑ</text>
+            <text y="520">ﾕ</text>
+            <text y="540">ﾗ</text>
+            <text y="560">ｾ</text>
+            <text y="580">ﾈ</text>
+            <text y="600">ｽ</text>
+            <text y="620">ﾀ</text>
+            <text y="640">ﾇ</text>
+            <text y="660">ﾍ</text>
+        </g>
+    </defs>
+    <rect width="100%" height="100%" fill="black"/>
+    <script>
+        const svg = document.querySelector('svg');
+        const columns = 50;
+        for (let i = 0; i < columns; i++) {
+            const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
+            use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#matrix-text");
+            use.setAttribute("x", i * 20);
+            use.setAttribute("y", Math.random() * -2000);
+            
+            const anim = document.createElementNS("http://www.w3.org/2000/svg", "animate");
+            anim.setAttribute("attributeName", "y");
+            anim.setAttribute("from", Math.random() * -1000);
+            anim.setAttribute("to", "200");
+            anim.setAttribute("dur", Math.random() * 3 + 2 + "s");
+            anim.setAttribute("repeatCount", "indefinite");
+            
+            use.appendChild(anim);
+            svg.appendChild(use);
+        }
+    </script>
+</svg>
