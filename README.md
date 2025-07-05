@@ -1,27 +1,62 @@
-# Hello, I'm MILO 👋
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajA0bDA0cTNnNnJqMHBmMm5yM3d2aWpma2c5b3JpN3pnc2s5a3E5eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ql5ky2dF5K2F3H5Ake/giphy.gif" width="100%"/>
+</div>
 
-## Side Projects 🚀
+<h1 align="center">
+  <pre>Wake up, Neo...</pre>
+</h1>
 
-Check out all my [Side Projects](SIDE_PROJECTS.md), including various interesting projects and tools.
+<p align="center">
+  > Accessing Mainframe: <b>[ sing1ee ]</b><br>
+  > Identity: <b>MILO</b><br>
+  > Status: <b>[ Operator ]</b>
+</p>
 
-## GitHub Stats 📊
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=sing1ee&show_icons=true&theme=radical" alt="GitHub Stats" />
+<details>
+  <summary align="center"><b>>./access-stats.sh</b></summary>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=sing1ee&show_icons=true&theme=dark&border_color=00FF00&title_color=00FF00&text_color=00FF00&icon_color=00FF00" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sing1ee&layout=compact&theme=dark&border_color=00FF00&title_color=00FF00&text_color=00FF00" alt="Top Languages" />
+  </p>
+</details>
 
-## Language Usage 📈
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sing1ee&layout=compact&theme=radical" alt="Top Languages" />
+<h2 align="center">
+  <b>SYSTEM.OUT.PRINTLN("Side_Projects.jar");</b>
+</h2>
 
-## Connect With Me 📱
+<p align="center">
+  My side projects are my playground. A place to experiment and build.
+  <br>
+  <a href="SIDE_PROJECTS.md">> java -jar Side_Projects.jar</a>
+</p>
 
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/chmilo)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:zh.milo@gmail.com)
+<br>
 
-## Visitor Count 👀
+<h2 align="center">
+  <b>ESTABLISH_CONNECTION.EXE</b>
+</h2>
 
-![Visitor Count](https://profile-counter.glitch.me/sing1ee/count.svg)
+<p align="center">
+  <a href="https://x.com/chmilo">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&color=000000&labelColor=00FF00" alt="Twitter"/>
+  </a>
+  <a href="mailto:zh.milo@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=000000&labelColor=00FF00" alt="Email"/>
+  </a>
+</p>
 
----
+<br>
 
-⭐️ From [MILO](https://github.com/sing1ee)
+<div align="center">
+  <img src="https://profile-counter.glitch.me/sing1ee/count.svg" alt="Visitor Count" />
+</div>
 
+<br>
+
+<p align="center">
+  <pre>There is no spoon.</pre>
+</p>
