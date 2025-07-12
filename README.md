@@ -47,12 +47,6 @@
 
 <br>
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/sing1ee/count.svg" alt="Visitor Count" />
-</div>
-
-<br>
-
 <p align="center">
   <pre>There is no spoon.</pre>
 </p>
